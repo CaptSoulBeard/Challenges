@@ -1,8 +1,8 @@
 const prompt = require("prompt-sync")();
 
-// Write a function that returns number of primary numbers below it
-// Primary numbers are numbers that only be devided by itself and 1
-// 1,3,5,7,11…
+//#region Write a function that returns number of primary numbers below it
+//Primary numbers are numbers that only be devided by itself and 1
+//1,3,5,7,11…
 
 //#region Variables
 
@@ -50,8 +50,24 @@ for (let i = lowestPrimeNumber; i <= userInput; i++) {
 
 //#endregion
 
-// Write a function that reverses a number contained of 5 digits
-// rev(12345) should return 54321
+//#endregion
 
-// Write the function max that takes 2 parameters and returns the maximum number.
-// Harder? Takes 3 parameters
+//#region Write a function that reverses a number contained of 5 digits
+//rev(12345) should return 54321
+
+const userInput2 = prompt(
+  "Please enter any five digits you want reversed e.g 12345: "
+);
+
+function reverseUserInput2(userInput2) {
+  return userInput2.split("").reverse().join("");
+}
+
+console.log(Number(reverseUserInput2(userInput2)));
+
+//#endregion
+
+//#region Write the function max that takes 2 parameters and returns the maximum number.
+//Harder? Takes 3 parameters
+
+//#endregion
