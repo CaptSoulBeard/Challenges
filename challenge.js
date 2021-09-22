@@ -70,4 +70,16 @@ console.log(Number(reverseUserInput2(userInput2)));
 //#region Write the function max that takes 2 parameters and returns the maximum number.
 //Harder? Takes 3 parameters
 
+const userInput3 = Number(prompt("Please enter your first number: "));
+const userInput4 = Number(prompt("Please enter your second number: "));
+const userInput5 = Number(prompt("Please enter your third number: "));
+
+console.log(
+  `Out of your inputs, the largest number is: ${Math.max(
+    userInput3,
+    userInput4,
+    userInput5
+  )}`
+);
+
 //#endregion
